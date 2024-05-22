@@ -1,0 +1,47 @@
+{
+	"gameData": {
+		"lang": 1,
+		"invPos": "right",
+		"invShow": false
+	},
+	"animalData": {
+		"monkey": {
+			"speed": 3,
+			"hp": 10,
+			"food": "banana"
+		},
+		"elephant": {
+			"speed": 2,
+			"hp": 20,
+			"food": "grass"
+		},
+		"panda": {
+			"speed": 1,
+			"hp": 30,
+			"food": "bamboo"
+		}
+	},
+	"StageData": {
+		"1": {
+			"animalType": "monkey",
+			"width": 45,
+			"timeOut": 60,
+			"minSpawnDelay": 500,
+			"maxSpawnDelay": 1000
+		},
+		"2": {
+			"animalType": "elephant",
+			"width": 60,
+			"timeOut": 70,
+			"minSpawnDelay": 800,
+			"maxSpawnDelay": 1200
+		},
+		"3": {
+			"animalType": "panda",
+			"width": 45,
+			"timeOut": 80,
+			"minSpawnDelay": 500,
+			"maxSpawnDelay": 1000
+		}
+	}
+}
